@@ -1,0 +1,153 @@
+#logo {
+    padding-top: 1.5em;
+}
+
+.menu {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding-right: 2rem;
+}
+
+* {
+    text-align: center;
+    font-family: "Inter";
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 50px;
+    text-align: left;
+    width: 20%;
+    padding: 2rem;
+}
+
+.name_box {
+    display: flex;
+    background-color: #BBA4A4;
+    height: 350px;
+    width: 100%;
+    margin-right: 0;
+    align-items: center;
+}
+
+.alumni {
+    background-color: #CBC8C8;
+    height: 550px;
+    width: 100%;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.circle {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 1em;
+    margin: 1em;
+}
+
+.awards {
+    padding-top: 1.5em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em 10em;
+
+}
+
+.flex-container > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.bestsellers {
+    background-color: #ACABAB;
+    height: 550px;
+    width: 100%;
+}
+
+.bestsellers > h2 {
+    padding: 1.5em;
+}
+
+.rect {
+    background-color: white;
+    height: 180px;
+    width: 300px;
+    margin: 1.5em;
+    float: left;
+}
+
+.leaders {
+    background-color: #D9D9D9;
+    height: 450px;
+    width: 100%;
+}
+
+.leaders > h2 {
+    padding: 1.5em;
+}
+
+.flex-footer {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.small {
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 2;
+    font-size: large;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+
+.row-span-3 {
+    grid-row: span 3;
+}
+
+.col-span-2 {
+    grid-column: span 2;
+}
+
+.testimonials {
+    background-color: #D9D9D9;
+    height: 500px;
+    width: 100%;
+    padding-top: 2em;
+}
+.review{
+    background-color: #7E7777;
+ 
+    padding: 3em;
+}
+
+.testimonials > h2 {
+    padding: 1.5em;
+}
