@@ -1,3 +1,5 @@
+/* Default Styles */
+
 #logo {
     padding-top: 1.5em;
 }
@@ -27,7 +29,7 @@
 .name_box {
     display: flex;
     background-color: #BBA4A4;
-    height: 350px;
+    height: 40vh;
     width: 100%;
     margin-right: 0;
     align-items: center;
@@ -60,7 +62,6 @@
     display: flex;
     justify-content: space-evenly;
     padding: 3em 10em;
-
 }
 
 .flex-container > div{
@@ -127,7 +128,6 @@
     gap: 0.75rem;
 }
 
-
 .row-span-3 {
     grid-row: span 3;
 }
@@ -142,12 +142,94 @@
     width: 100%;
     padding-top: 2em;
 }
-.review{
+
+.review {
     background-color: #7E7777;
- 
     padding: 3em;
 }
 
 .testimonials > h2 {
     padding: 1.5em;
+}
+
+.big-items{
+    padding:0 2em;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 700px) {
+    .alumni{
+        height: 115vh;
+    }
+    .sub-container > .flex-container{
+        flex-direction: row !important;
+    }
+    .sub-container > .flex-container > div{
+        padding: 1.5em;
+    }
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 3em;
+    }
+
+    .big {
+        font-size: small;
+    }
+
+    .rect {
+        width: 100%;
+        max-width: 300px;
+        margin: 1.5em;
+        float: none;
+    }
+
+    .name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .bestsellers {
+        height: 96vh;
+    }
+
+    .bestsellers > h2 {
+        padding-bottom: 0em;
+    }
+
+    .product {
+        padding-bottom: 1em;
+    }
+
+    .leaders {
+        height: 80vh;
+    }
+
+    .leaders > h2 {
+        padding-bottom: 0em;
+    }
+
+    .leaders > .flex-container > div {
+        padding-bottom: 1em;
+    }
+
+    .awards {
+        padding-bottom: 0em;
+    }
+
+    .alumni > .flex-container > div {
+        padding-bottom: 1em;
+    }
+
+    .sub-container > .flex-container{
+        padding-top: 0em;
+    }
+    
+    .big-items{
+        padding:0.2em 0;
+        font-size: medium;
+        font-weight: 400;
+    }
+
 }
