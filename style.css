@@ -160,7 +160,7 @@
 
 @media (max-width: 700px) {
     .alumni{
-        height: 115vh;
+        height: 1050px;
     }
     .sub-container > .flex-container{
         flex-direction: row !important;
@@ -191,7 +191,7 @@
     }
 
     .bestsellers {
-        height: 96vh;
+        height: 900px;
     }
 
     .bestsellers > h2 {
@@ -203,7 +203,7 @@
     }
 
     .leaders {
-        height: 80vh;
+        height: 770px;
     }
 
     .leaders > h2 {
