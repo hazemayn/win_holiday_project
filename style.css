@@ -1,7 +1,7 @@
 /* Default Styles */
 
-#logo {
-    padding-top: 1.5em;
+.logo {
+    padding-top: 0.5em;
 }
 
 .menu {
@@ -47,11 +47,10 @@
 
 .circle {
     background-color: white;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    padding: 1em;
-    margin: 1em;
+    margin: 2em;
 }
 
 .awards {
@@ -126,10 +125,12 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.75rem;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .row-span-3 {
-    grid-row: span 3;
+    grid-row: span 2;
 }
 
 .col-span-2 {
@@ -160,7 +161,7 @@
 
 @media (max-width: 700px) {
     .alumni{
-        height: 1050px;
+        height: 115vh;
     }
     .sub-container > .flex-container{
         flex-direction: row !important;
@@ -191,7 +192,7 @@
     }
 
     .bestsellers {
-        height: 900px;
+        height: 96vh;
     }
 
     .bestsellers > h2 {
@@ -203,7 +204,7 @@
     }
 
     .leaders {
-        height: 770px;
+        height: 80vh;
     }
 
     .leaders > h2 {
