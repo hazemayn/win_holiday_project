@@ -161,7 +161,7 @@
 
 @media (max-width: 700px) {
     .alumni{
-        height: 115vh;
+        height: 1200px;
     }
     .sub-container > .flex-container{
         flex-direction: row !important;
@@ -204,7 +204,7 @@
     }
 
     .leaders {
-        height: 80vh;
+        height: 920px;
     }
 
     .leaders > h2 {
@@ -213,6 +213,10 @@
 
     .leaders > .flex-container > div {
         padding-bottom: 1em;
+    }
+
+    .leaders > .flex-container {
+        padding-top: 1em;
     }
 
     .awards {
@@ -231,6 +235,10 @@
         padding:0.2em 0;
         font-size: medium;
         font-weight: 400;
+    }
+
+    .testimonials {
+        padding-top: 0em;
     }
 
 }
